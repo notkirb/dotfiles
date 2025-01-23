@@ -12,6 +12,7 @@ alias bashrc='vim ~/.bashrc'
 alias neofetch='fastfetch'
 alias re='clear && sh ~/.bashrc'
 alias tt='tt -n 10 -theme nord'
+alias update='yay -Syu && flatpak update'
 PS1='\u \h \w\n\$ '
 
 neofetch
